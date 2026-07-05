@@ -31,3 +31,11 @@ def test_enrich_lead_degrades_gracefully_without_key(monkeypatch):
     monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
     out = enrichment.enrich_lead("X Co", "x.com", "Technology")
     assert "Enrichment disabled" in out
+
+
+def test_prompt_enforces_terse_output():
+    """Live eval found verbose output (preambles, emojis) truncating at the
+    token cap and losing section 4 — the prompt must forbid extras."""
+    p = enrichment.ENRICHMENT_PROMPT
+    assert "ONLY the four numbered sections" in p
+    assert "no preamble" in p

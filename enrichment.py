@@ -36,6 +36,10 @@ Produce a brief with exactly these 4 sections, each 1-2 sentences, no fluff:
 4. Outreach Angle — one concrete, specific sentence a rep could open a call with
 
 Do not invent facts. If you can't find something, say so explicitly rather than guessing.
+
+Output ONLY the four numbered sections above — no preamble, no title, no
+emojis, no horizontal rules, no notes, and no advice after section 4.
+Each section is at most 2 sentences.
 """
 
 
@@ -54,7 +58,7 @@ def enrich_lead(company: str, website: str, industry: str) -> str:
 
     response = client.messages.create(
         model="claude-sonnet-4-6",
-        max_tokens=500,
+        max_tokens=800,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         messages=[{
             "role": "user",
