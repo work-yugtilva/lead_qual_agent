@@ -15,6 +15,10 @@ import pandas as pd
 from scoring import score_lead
 from hygiene import check_completeness, find_duplicates, same_company_clusters
 from enrichment import enrich_lead, is_enrichment_available
+from salesforce_client import (
+    is_salesforce_configured, fetch_leads as sf_fetch_leads,
+    update_rating, get_rating_picklist_values,
+)
 
 st.set_page_config(page_title="Lead Qualification Agent", layout="wide")
 
@@ -23,6 +27,11 @@ st.set_page_config(page_title="Lead Qualification Agent", layout="wide")
 def load_leads(path: str) -> list[dict]:
     with open(path, newline="") as f:
         return list(csv.DictReader(f))
+
+
+@st.cache_data(ttl=300)
+def load_leads_from_salesforce() -> list[dict]:
+    return sf_fetch_leads()
 
 
 def run_pipeline(rows: list[dict]):
@@ -48,16 +57,22 @@ st.title("Inbound Lead Qualification + Scoring Agent")
 st.caption("Rules-based scoring · CRM hygiene checks · AI account research briefs")
 
 uploaded = st.file_uploader("Upload a lead CSV (Salesforce Lead field names)", type="csv")
-data_path = None
 if uploaded:
     data_path = "/tmp/uploaded_leads.csv"
     with open(data_path, "wb") as f:
         f.write(uploaded.getbuffer())
+    rows = load_leads(data_path)
+    source = "csv"
+    st.info("Using uploaded CSV.")
+elif is_salesforce_configured():
+    rows = load_leads_from_salesforce()
+    source = "salesforce"
+    st.info(f"Connected to Salesforce — {len(rows)} unconverted leads loaded.")
 else:
-    data_path = "data/mock_leads.csv"
-    st.info("Using bundled mock dataset. Upload your own CSV to override.")
+    rows = load_leads("data/mock_leads.csv")
+    source = "csv"
+    st.info("Using bundled mock dataset. Upload a CSV or set SF_* env vars to override.")
 
-rows = load_leads(data_path)
 results = run_pipeline(rows)
 
 df = pd.DataFrame([{
@@ -74,6 +89,19 @@ col3.metric("Hygiene Flags", sum(len(r["Hygiene Issues"]) for r in results))
 
 st.subheader("Scored Leads")
 st.dataframe(df, use_container_width=True, hide_index=True)
+
+if source == "salesforce":
+    st.subheader("Salesforce Write-back")
+    if st.button("Write tiers to Lead.Rating"):
+        picklist = get_rating_picklist_values()
+        missing = {"Hot", "Warm", "Cold"} - picklist
+        if missing:
+            st.error(f"Lead.Rating picklist missing values {missing} — nothing written.")
+        else:
+            with st.spinner("Updating Lead.Rating..."):
+                for r in results:
+                    update_rating(r["Id"], r["Tier"])
+            st.success(f"Updated Rating on {len(results)} leads.")
 
 st.subheader("Duplicate Detection")
 dupes = find_duplicates(rows)
