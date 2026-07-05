@@ -26,13 +26,17 @@ app.py                  → Streamlit dashboard tying it together
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=your_key_here   # optional — enables live account research
+cp .env.example .env         # then fill in your keys (file is gitignored)
+set -a; source .env; set +a  # load env vars for this shell
+python3 -m pytest tests/ -q  # sanity checks (Salesforce tests skip without creds)
 streamlit run app.py
 ```
 
-Without an API key set, the app still runs — scoring and hygiene
-checks work standalone. The research brief button will tell you
-enrichment is disabled.
+All credentials come from environment variables only — see
+`.env.example` for the full list. Everything is optional: without
+`ANTHROPIC_API_KEY` the research-brief button reports enrichment is
+disabled; without the `SF_*` variables the app runs standalone on the
+bundled 40-row mock dataset (`data/mock_leads.csv`).
 
 ## Scoring model
 
@@ -46,38 +50,46 @@ enrichment is disabled.
 Score maps directly to Salesforce's native `Lead.Rating` picklist:
 75+ = Hot, 50-74 = Warm, <50 = Cold.
 
-Adjust the ICP constants at the top of `scoring.py` to match a real
-target market.
+The ICP constants at the top of `scoring.py` hold the confirmed
+targeting values (Technology + Financial Services primary; Healthcare +
+Retail adjacent; 100-1500 employees, 50-3000 adjacent).
 
-## Phase 2 — wiring to a live Salesforce org
+## Salesforce integration (Phase 2 — implemented)
 
-The mock CSV schema uses real Lead object field API names on purpose
-(`Company`, `FirstName`, `LastName`, `Industry`, `NumberOfEmployees`,
-`LeadSource`, `Rating`, etc.) so this is a data-source swap, not a
-rewrite.
+The app pulls unconverted Leads from a live org via `salesforce_client.py`
+(simple-salesforce, OAuth username-password flow through a Connected App)
+and can write each lead's tier back to the standard `Lead.Rating` picklist.
 
-1. **Sign up for a free Salesforce Developer Edition org**
-   (developer.salesforce.com) — gives you a real Lead object with
-   sample data if you want it.
-2. **Create a Connected App** in Setup → App Manager, enable OAuth,
-   note the Consumer Key/Secret.
-3. **Install `simple-salesforce`**: `pip install simple-salesforce`
-4. **Swap the data source**: replace `load_leads()` in `app.py` with
-   a SOQL query pull:
-   ```python
-   from simple_salesforce import Salesforce
-   sf = Salesforce(username=..., password=..., security_token=..., consumer_key=..., consumer_secret=...)
-   records = sf.query("SELECT Id, FirstName, LastName, Company, Title, Email, Industry, NumberOfEmployees, LeadSource, Website FROM Lead WHERE IsConverted = false")["records"]
-   ```
-5. **Write scores back**: after scoring, `sf.Lead.update(lead_id, {"Rating": tier})` —
-   custom fields (`Score__c`, `Reason_Codes__c`) require adding two
-   custom fields to the Lead object first (Setup → Object Manager).
-6. **Behavioral fields** (`Requested_Demo__c`, etc.) need to be
-   created as custom fields on Lead if you want the engagement score
-   to run against real data instead of the mock CSV values.
+**Environment variables** (put them in `.env` — never committed):
+`SF_USERNAME`, `SF_PASSWORD`, `SF_SECURITY_TOKEN`, `SF_CONSUMER_KEY`,
+`SF_CONSUMER_SECRET`, plus `ANTHROPIC_API_KEY` for enrichment.
 
-Budget an extra 4-6 hours for this step — most of it is Salesforce
-admin config, not code.
+**Data-source order in the app:** uploaded CSV → Salesforce (when all
+`SF_*` vars are set) → bundled mock CSV. Standalone mode always works.
+
+**Write-back:** the "Write tiers to Lead.Rating" button appears in
+Salesforce mode. It verifies at runtime that the Rating picklist
+actually contains Hot/Warm/Cold before writing anything. No custom
+fields are created — `Score__c`/`Reason_Codes__c` were deliberately
+skipped (schema changes on the org are a human decision).
+
+**Behavioral fields:** the SOQL deliberately omits the
+`Requested_Demo__c`-style custom fields — a fresh Developer Edition org
+doesn't have them, and scoring tolerates their absence (those factors
+score 0). Create them on Lead if you want engagement scoring against
+live data.
+
+**Integration tests** (run against a real Dev org; they skip cleanly
+when credentials are absent):
+
+```bash
+set -a; source .env; set +a
+python3 -m pytest tests/test_salesforce_integration.py -q
+```
+
+The suite proves a round-trip query returns the expected fields and
+that a Rating write-back actually persists (update → re-query → assert
+→ restore).
 
 ## What this demonstrates in an interview
 
