@@ -18,7 +18,7 @@ that field once this is wired to a real org.
 
 from dataclasses import dataclass, field
 
-# ---- Ideal Customer Profile (ICP) — adjust to match a real target market ----
+# ---- Ideal Customer Profile (ICP) — confirmed targeting values (2026-07) ----
 ICP_INDUSTRIES = {"Technology", "Financial Services"}
 ICP_ADJACENT_INDUSTRIES = {"Healthcare", "Retail"}
 
