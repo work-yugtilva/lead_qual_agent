@@ -1,0 +1,11 @@
+Id,FirstName,LastName,Company,Title,Email,Phone,Industry,NumberOfEmployees,AnnualRevenue,LeadSource,Website,Country,Requested_Demo__c,Whitepaper_Downloaded__c,Pages_Visited__c,Days_Since_Last_Activity__c
+00Q001,Sarah,Chen,Northbeam Analytics,VP of Sales,sarah.chen@northbeam.io,415-555-0111,Technology,450,42000000,Referral,northbeam.io,USA,TRUE,TRUE,14,1
+00Q002,Marcus,Reyes,Ferro Logistics,Operations Manager,m.reyes@ferrologistics.com,,Transportation,80,8000000,Web,ferrologistics.com,USA,FALSE,FALSE,2,25
+00Q003,Priya,Nair,Vantalis Financial,Director of IT,priya.nair@vantalis.com,312-555-0177,Financial Services,1200,300000000,Demo Request,vantalis.com,USA,TRUE,FALSE,9,3
+00Q004,,Okafor,Brightpath Retail,,jokafor@brightpathretail.com,,Retail,60,5000000,Cold List,brightpathretail.com,USA,FALSE,FALSE,1,60
+00Q005,Elena,Petrova,Cascade Health Systems,VP Engineering,elena.petrova@cascadehealth.org,206-555-0199,Healthcare,900,150000000,Content Download,cascadehealth.org,USA,FALSE,TRUE,6,10
+00Q006,Tom,Wachowski,Ferro Logistics,VP Operations,tom.w@ferrologistics.com,312-555-0142,Transportation,80,8000000,Referral,ferrologistics.com,USA,TRUE,FALSE,11,4
+00Q007,Aiko,Tanaka,Solvent SaaS Co,Head of RevOps,aiko@solventsaas.com,,Technology,220,18000000,Demo Request,solventsaas.com,USA,TRUE,TRUE,20,2
+00Q008,David,Kim,MetroBank Corp,SVP Digital Banking,david.kim@metrobank.com,617-555-0133,Financial Services,3000,900000000,Web,metrobank.com,USA,FALSE,FALSE,3,45
+00Q009,,,Unicorn Consulting,,info@unicornconsulting.biz,,,,,Cold List,unicornconsulting.biz,USA,FALSE,FALSE,0,90
+00Q010,Rachel,Alvarez,Ferro Logistics,Operations Manager,m.reyes@ferrologistics.com,,Transportation,80,8000000,Web,ferrologistics.com,USA,FALSE,FALSE,2,25
