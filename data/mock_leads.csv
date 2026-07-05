@@ -9,3 +9,33 @@ Id,FirstName,LastName,Company,Title,Email,Phone,Industry,NumberOfEmployees,Annua
 00Q008,David,Kim,MetroBank Corp,SVP Digital Banking,david.kim@metrobank.com,617-555-0133,Financial Services,3000,900000000,Web,metrobank.com,USA,FALSE,FALSE,3,45
 00Q009,,,Unicorn Consulting,,info@unicornconsulting.biz,,,,,Cold List,unicornconsulting.biz,USA,FALSE,FALSE,0,90
 00Q010,Rachel,Alvarez,Ferro Logistics,Operations Manager,m.reyes@ferrologistics.com,,Transportation,80,8000000,Web,ferrologistics.com,USA,FALSE,FALSE,2,25
+00Q011,Avery,Stone,Gong,VP Revenue Operations,avery.stone@gong.io,415-555-0201,Technology,1300,300000000,Demo Request,gong.io,USA,TRUE,TRUE,12,1
+00Q012,Nadia,Osei,Plaid,Head of Partnerships,nadia.osei@plaid.com,415-555-0202,Financial Services,1200,250000000,Referral,plaid.com,USA,TRUE,FALSE,8,2
+00Q013,Lucas,Meyer,Ramp,Director of Finance Systems,lucas.meyer@ramp.com,212-555-0203,Financial Services,1000,200000000,Demo Request,ramp.com,USA,TRUE,TRUE,15,4
+00Q014,Ingrid,Sorensen,Retool,VP Engineering,ingrid.sorensen@retool.com,415-555-0204,Technology,400,80000000,Referral,retool.com,USA,TRUE,FALSE,6,1
+00Q015,Caleb,Novak,Lattice,Director of People Ops,caleb.novak@lattice.com,415-555-0205,Technology,600,120000000,Content Download,lattice.com,USA,FALSE,TRUE,7,6
+00Q016,Renee,Duval,Webflow,Engineering Manager,renee.duval@webflow.com,415-555-0206,Technology,800,150000000,Web,webflow.com,USA,FALSE,FALSE,5,12
+00Q017,Victor,Alonso,Carta,VP Business Development,victor.alonso@carta.com,650-555-0207,Financial Services,1400,350000000,Content Download,carta.com,USA,FALSE,TRUE,4,20
+00Q018,Wei,Zhang,Mercury,Head of Risk,wei.zhang@mercury.com,415-555-0208,Financial Services,800,160000000,Web,mercury.com,USA,FALSE,FALSE,9,3
+00Q019,Fatima,Rahman,Clari,Senior Director RevOps,fatima.rahman@clari.com,408-555-0209,Technology,800,180000000,Content Download,clari.com,USA,FALSE,FALSE,2,15
+00Q020,Oscar,Lindgren,Airtable,Platform Lead,oscar.lindgren@airtable.com,415-555-0210,Technology,700,140000000,Web,airtable.com,USA,FALSE,TRUE,3,8
+00Q021,Bianca,Ferreira,Cobalt Peak Software,COO,bianca.ferreira@cobaltpeak.io,303-555-0211,Technology,500,60000000,Referral,cobaltpeak.io,USA,TRUE,FALSE,5,40
+00Q022,Henry,Ogunleye,Harborline Retail Group,Director of Ecommerce,henry.o@harborline.com,646-555-0212,Retail,2000,500000000,Content Download,harborline.com,USA,FALSE,TRUE,3,5
+00Q023,Sofia,Marchetti,Meadowbrook Health Partners,Practice Manager,sofia.m@meadowbrookhp.com,617-555-0213,Healthcare,60,6000000,Content Download,meadowbrookhp.com,USA,FALSE,FALSE,7,6
+00Q024,James,Whitfield,Sablewood Insurance,Claims Director,james.whitfield@sablewood.com,704-555-0214,Insurance,250,40000000,Web,sablewood.com,USA,FALSE,FALSE,1,50
+00Q025,Jim,Whitfield,Sablewood Insurance,Director of Claims,jwhitfield@sablewoodins.com,704-555-0215,Insurance,250,40000000,Cold List,sablewood.com,USA,FALSE,FALSE,0,70
+00Q026,Dana,Holt,Truvant Analytics,VP Data,dana.holt@truvant.io,512-555-0216,Technology,300,45000000,Demo Request,truvant.io,USA,TRUE,FALSE,4,2
+00Q027,Dana,Holt,Truvant,VP Data,dana.holt@truvant.io,,Technology,300,45000000,Web,truvant.io,USA,FALSE,FALSE,1,2
+00Q028,Omar,Farouk,,IT Director,omar.farouk@gmail.com,,Technology,200,20000000,Web,,USA,FALSE,FALSE,2,30
+00Q029,Greta,Halvorsen,Grayfield Manufacturing,,,,Manufacturing,5000,800000000,Cold List,grayfieldmfg.com,USA,FALSE,FALSE,0,120
+00Q030,Paulo,Mendes,Nimbus Marketing Co,Marketing Director,paulo@nimbusmarketing.co,,Media,,3000000,Content Download,nimbusmarketing.co,Brazil,FALSE,TRUE,5,10
+00Q031,Maya,Lindqvist,Gong,RevOps Manager,maya.lindqvist@gong.io,415-555-0221,Technology,1300,300000000,Content Download,gong.io,USA,FALSE,TRUE,6,5
+00Q032,Theo,Brandt,Veyra Biotech Labs,Lab Operations Lead,theo.brandt@veyrabiotech.com,,Biotechnology,120,10000000,Web,veyrabiotech.com,Germany,FALSE,FALSE,4,18
+00Q033,Rosa,Ibanez,Kestrel Peak Mining,Procurement Officer,rosa.ibanez@kestrelpeakmining.com,303-555-0223,Mining,8000,1200000000,Cold List,kestrelpeakmining.com,USA,FALSE,FALSE,0,200
+00Q034,Ken,Okada,Silverbirch Hospitality,Front Office Manager,ken.okada@silverbirchhosp.com,808-555-0224,Hospitality,90,7000000,Web,silverbirchhosp.com,USA,FALSE,FALSE,2,9
+00Q035,Amara,Diallo,Atlas Freight Systems,VP Operations,amara.diallo@atlasfreightsys.com,312-555-0225,Transportation,700,90000000,Referral,atlasfreightsys.com,USA,TRUE,FALSE,8,3
+00Q036,Nils,Pettersen,Pinewood Credit Union,Branch Manager,nils.p@pinewoodcu.com,406-555-0226,Financial Services,45,4000000,Content Download,pinewoodcu.com,USA,FALSE,TRUE,5,14
+00Q037,Lila,Haddad,Copperfield Media Group,Head of Digital,lila.haddad@copperfieldmedia.com,213-555-0227,Media,300,35000000,Demo Request,copperfieldmedia.com,USA,TRUE,FALSE,10,1
+00Q038,Ethan,Brooks,Trellis Health Collective,CTO,ethan.brooks@trellishealth.com,503-555-0228,Healthcare,150,15000000,Referral,trellishealth.com,USA,FALSE,TRUE,6,2
+00Q039,Priti,Shah,Zephyr Kinetics,Director of Engineering,priti.shah@zephyrkinetics.com,978-555-0229,Technology,260,22000000,Web,zephyrkinetics.com,USA,FALSE,FALSE,3,6
+00Q040,Walt,Grumman,Bramblewood Farms,Owner,,406-555-0230,Agriculture,30,900000,Cold List,bramblewoodfarms.com,USA,FALSE,FALSE,0,365
