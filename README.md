@@ -57,14 +57,24 @@ Retail adjacent; 100-1500 employees, 50-3000 adjacent).
 ## Salesforce integration (Phase 2 — implemented)
 
 The app pulls unconverted Leads from a live org via `salesforce_client.py`
-(simple-salesforce, OAuth username-password flow through a Connected App)
-and can write each lead's tier back to the standard `Lead.Rating` picklist.
+(simple-salesforce, OAuth 2.0 **Client Credentials Flow** through a Connected
+App) and can write each lead's tier back to the standard `Lead.Rating`
+picklist. Client credentials is a server-to-server flow — the app
+authenticates as the Connected App itself, with no user password or security
+token. The legacy OAuth username-password flow (and SOAP login) is
+hard-disabled in orgs created Summer '23 or later, which is why this flow is
+used.
+
+**Connected App setup** (one time): in OAuth Settings check **Enable Client
+Credentials Flow**, then Manage → Edit Policies → Client Credentials Flow → set
+a **Run-As user**.
 
 **Environment variables** (put them in `.env` — never committed):
-`SF_USERNAME`, `SF_PASSWORD`, `SF_SECURITY_TOKEN`, `SF_CONSUMER_KEY`,
-`SF_CONSUMER_SECRET`, plus `ANTHROPIC_API_KEY` for enrichment.
+`SF_CONSUMER_KEY`, `SF_CONSUMER_SECRET`, `SF_INSTANCE_URL` (your My Domain URL,
+e.g. `https://orgfarm-xxxx-dev-ed.develop.my.salesforce.com`), plus
+`ANTHROPIC_API_KEY` for enrichment.
 
-**Data-source order in the app:** uploaded CSV → Salesforce (when all
+**Data-source order in the app:** uploaded CSV → Salesforce (when all three
 `SF_*` vars are set) → bundled mock CSV. Standalone mode always works.
 
 **Write-back:** the "Write tiers to Lead.Rating" button appears in

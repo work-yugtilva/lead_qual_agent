@@ -9,8 +9,7 @@ import os
 import pytest
 
 REQUIRED = (
-    "SF_USERNAME", "SF_PASSWORD", "SF_SECURITY_TOKEN",
-    "SF_CONSUMER_KEY", "SF_CONSUMER_SECRET",
+    "SF_CONSUMER_KEY", "SF_CONSUMER_SECRET", "SF_INSTANCE_URL",
 )
 
 pytestmark = pytest.mark.skipif(
