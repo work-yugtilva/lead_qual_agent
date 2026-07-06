@@ -1,0 +1,201 @@
+Id,FirstName,LastName,Company,Title,Email,Phone,Industry,NumberOfEmployees,AnnualRevenue,LeadSource,Website,Country,Requested_Demo__c,Whitepaper_Downloaded__c,Pages_Visited__c,Days_Since_Last_Activity__c
+00Q0001,Riley,Kim,Drift Analytics,,riley.kim@driftanalyti.tech,659-555-5557,Retail,4271,118691090,Web,driftanalyti.org,USA,TRUE,FALSE,16,132
+00Q0002,Sofia,Rahman,Tidal CRM,Director of Ecommerce,sofia.rahman@tidalcrm.tech,,Manufacturing,294,47999322,Demo Request,tidalcrm.co,USA,FALSE,FALSE,12,1
+00Q0003,Hayden,Perez,Cobalt Peak Software,VP Engineering,hayden.perez@cobaltpeaksof.io,538-555-4895,Technology,3695,404044125,Web,cobaltpeaks.io,USA,FALSE,FALSE,6,46
+00Q0004,Skyler,Garcia,Quantum Retail,CTO,skyler.garcia@quantumretai.io,396-555-1659,Retail,2093,256198850,Demo Request,quantumret.io,USA,TRUE,FALSE,12,2
+00Q0005,Aiko,Hill,Unified Health Group,VP of Sales,aiko.hill@unifiedhealthg.io,218-555-3793,Healthcare,10261,1087249120,Referral,unifiedhea.io,USA,TRUE,FALSE,3,40
+00Q0006,Priya,Thompson,Delta Capital,Founder,priya.thompson@deltacapita.io,815-555-6060,Financial Services,12459,1493684382,Web,deltacapi.io,USA,FALSE,FALSE,1,50
+00Q0007,Tobias,White,Xenon Labs,VP Revenue Operations,tobias.white@xenonlabs.io,281-555-5087,Biotechnology,1209,152741196,Demo Request,xenonlab.io,USA,TRUE,TRUE,13,3
+00Q0008,Jordan,Walker,BridgePoint Capital,Intern,jordan.walker@bridgepointc.io,492-555-5516,Financial Services,3163,344820090,Demo Request,bridgepo.io,USA,FALSE,FALSE,4,11
+00Q0009,Cameron,Rodriguez,Kinetic Software,Director of Finance Systems,cameron.rodriguez@kineticsoftw.com,,Technology,1070,137459900,Web,kineticsof.com,USA,FALSE,FALSE,13,22
+00Q0010,Riley,Roberts,Mosaic Software,Marketing Specialist,riley.roberts@mosaicsoftwa.ai,960-555-5618,Technology,12193,1479699975,Content Download,mosaicsof.ai,USA,FALSE,FALSE,4,134
+00Q0011,Bianca,Novak,Apex Revenue,VP of Sales,bianca.novak@apexrevenue.io,428-555-7063,Technology,14424,1788046500,Cold List,apexreve.io,USA,FALSE,FALSE,0,55
+00Q0012,Chiara,Green,FirmPoint Analytics,Head of RevOps,chiara.green@firmpointana.io,857-555-1756,Technology,11019,1317220425,Content Download,firmpoin.io,USA,FALSE,TRUE,10,10
+00Q0013,Dana,Mitchell,Tidal CRM,COO,dana.mitchell@tidalcrm.org,498-555-1044,Manufacturing,294,41288400,Demo Request,tidalcrm.org,USA,TRUE,FALSE,13,1
+00Q0014,Reese,Adams,Kinetic Software,Owner,reese.adams@kineticsoftw.tech,561-555-3165,Technology,1070,149812900,Content Download,kineticsof.tech,USA,FALSE,TRUE,4,19
+00Q0015,Victor,Lewis,Apex Revenue,Head of Digital,victor.lewis@apexrevenue.ai,948-555-9455,Technology,14424,1598620938,Web,apexreve.ai,USA,FALSE,FALSE,8,130
+00Q0016,Leila,Baker,Jumpstart Fintech,VP of Sales,leila.baker@jumpstartfin.io,340-555-9621,Financial Services,8753,1085234490,Web,jumpstar.io,USA,FALSE,FALSE,1,37
+00Q0017,Yuki,Harris,Kestrel Media,Senior Director RevOps,yuki.harris@kestrelmedia.tech,786-555-4782,Media,1416,91622568,Cold List,kestrelm.tech,USA,FALSE,FALSE,0,80
+00Q0018,Amara,Clark,Quantum Retail,Marketing Specialist,amara.clark@quantumretai.ai,344-555-4694,Retail,2093,192044900,Web,quantumret.ai,USA,FALSE,FALSE,3,9
+00Q0019,Bianca,Lopez,Cascade Health Systems,Claims Director,bianca.lopez@cascadehealt.io,823-555-2990,Healthcare,11897,1330453270,Referral,cascadehe.io,USA,TRUE,TRUE,13,1
+00Q0020,Aiko,White,GrowtLoop,Director of Engineering,aiko.white@growtloop.io,213-555-9671,Technology,11832,1451074680,Content Download,growtloo.io,USA,FALSE,FALSE,0,69
+00Q0021,Morgan,Nelson,Mosaic Software,CEO,morgan.nelson@mosaicsoftwa.io,867-555-8046,Technology,12193,1289453175,Demo Request,mosaicsof.io,USA,TRUE,TRUE,15,0
+00Q0022,Priya,Hill,XcelHealth,Procurement Officer,priya.hill@xcelhealth.io,836-555-5777,Healthcare,6695,603832825,Cold List,xcelhealt.io,USA,FALSE,FALSE,0,162
+00Q0023,Greta,Osei,Unified Health Group,VP Revenue Operations,greta.osei@unifiedhealthg.io,281-555-4523,Healthcare,10261,989720100,Web,unifiedhea.io,Germany,FALSE,FALSE,7,31
+00Q0024,Amelia,Rodriguez,Helios Tech,VP of Sales,amelia.rodriguez@heliostech.io,824-555-2021,Technology,7083,847261680,Demo Request,heliostech.io,USA,TRUE,FALSE,14,2
+00Q0025,Diego,Thompson,GrowthLoop,Director of IT,diego.thompson@growthloop.ai,827-555-5879,Technology,11832,1414862400,Demo Request,growthlop.ai,USA,TRUE,FALSE,3,1
+00Q0026,Logan,Adams,Vex Robotics,Consultant,logan.adams@vexrobotics.tech,697-555-5660,Technology,4861,451396560,Referral,vexroboti.tech,USA,TRUE,FALSE,7,5
+00Q0027,Fiona,Roberts,Momentum CRM,Head of Partnerships,fiona.roberts@momentumcrm.io,291-555-9148,Technology,7590,807573750,Referral,momentumc.io,USA,TRUE,TRUE,18,1
+00Q0028,James,Clark,Helios Tech,VP Engineering,james.clark@heliostech.tech,213-555-1823,Technology,7083,836600475,Content Download,heliostech.tech,USA,FALSE,FALSE,12,7
+00Q0029,Henry,Alonso,Apex Revenue,Director of IT,henry.alonso@apexrevenue.co,393-555-5819,Technology,14424,1551583800,Web,apexreve.co,USA,FALSE,FALSE,6,47
+00Q0030,Chiara,Martin,Solvent SaaS Co,VP of Sales,chiara.martin@solventsaasc.com,893-555-6386,Technology,6524,822706800,Content Download,solvents.com,USA,FALSE,TRUE,2,15
+00Q0031,Quinn,Kim,Atlas Freight,Head of Partnerships,quinn.kim@atlasfreight.co,840-555-7765,Transportation,3272,377561736,Referral,atlasfreig.co,USA,TRUE,FALSE,16,2
+00Q0032,Tobias,Garcia,Sigma Manufacturing,Marketing Specialist,tobias.garcia@sigmamanufa.tech,540-555-4048,Manufacturing,11553,1296256320,Content Download,sigmaman.tech,USA,FALSE,FALSE,0,72
+00Q0033,Fatima,Martinez,Mosaic Software,Business Analyst,fatima.martinez@mosaicsoftwa.tech,620-555-2049,Technology,12193,1476756300,Content Download,mosaicsof.tech,USA,FALSE,TRUE,12,15
+00Q0034,Bruno,Ibanez,BridgePoint Capital,Head of RevOps,bruno.ibanez@bridgepointc.co,869-555-8516,Financial Services,3163,362827250,Cold List,bridgepo.co,USA,FALSE,FALSE,0,92
+00Q0035,Yuki,Nelson,HorizonPay,Product Manager,yuki.nelson@horizonpay.io,387-555-3393,Financial Services,5420,647311200,Content Download,horizonpa.io,USA,FALSE,TRUE,7,16
+00Q0036,Hayden,Baker,Pulse Health,VP Revenue Operations,hayden.baker@pulsehealth.io,596-555-1451,Healthcare,1800,186948000,Referral,pulseheal.io,USA,TRUE,TRUE,9,3
+00Q0037,Drew,Lindqvist,Jumpstart Fintech,Head of Digital,drew.lindqvist@jumpstartfin.co,484-555-6869,Financial Services,8753,1007499270,Web,jumpstar.co,USA,FALSE,FALSE,5,18
+00Q0038,Leila,Brandt,Quantum Retail,Data Analyst,leila.brandt@quantumretai.co,736-555-5741,Retail,2093,173088100,Web,quantumret.co,USA,FALSE,FALSE,2,66
+00Q0039,Chiara,Holt,Infinite Scale,Engineering Manager,chiara.holt@infinitescal.io,832-555-3568,Technology,10793,1242598075,Demo Request,infinites.io,USA,TRUE,FALSE,18,1
+00Q0040,Paulo,Phillips,Cobalt Peak Software,Director of Engineering,paulo.phillips@cobaltpeaksof.co,213-555-8920,Technology,3695,376398000,Demo Request,cobaltpeaks.co,USA,TRUE,TRUE,11,2
+00Q0041,Skyler,Turner,LightYear AI,CEO,skyler.turner@lightyearai.ai,397-555-5714,Technology,3048,272592000,Referral,lightyear.ai,USA,TRUE,TRUE,20,0
+00Q0042,Riley,Adams,Neon Fintech,Director of IT,riley.adams@neonfintech.io,218-555-5437,Financial Services,12407,1394018040,Content Download,neonfintech.io,USA,FALSE,FALSE,3,29
+00Q0043,Logan,White,Wave Financial,VP Engineering,logan.white@wavefinancia.io,492-555-6082,Financial Services,9420,1042614000,Content Download,wavefinan.io,USA,FALSE,TRUE,15,6
+00Q0044,Taylor,Martinez,Quartz Fintech,Co-Founder,taylor.martinez@quartzfintec.io,960-555-6034,Financial Services,4125,365062500,Demo Request,quartzfin.io,Canada,TRUE,TRUE,17,1
+00Q0045,Bianca,Walker,Momentum CRM,IT Manager,bianca.walker@momentumcrm.co,428-555-1716,Technology,7590,887067750,Web,momentumc.co,USA,FALSE,FALSE,2,33
+00Q0046,Amara,Thompson,Kestrel Media,Claims Director,amara.thompson@kestrelmedia.io,857-555-4041,Media,1416,127065624,Web,kestrelm.io,USA,FALSE,FALSE,1,24
+00Q0047,Amelia,Turner,YieldPoint Capital,Head of Risk,amelia.turner@yieldpointca.io,498-555-8685,Financial Services,6204,651522000,Web,yieldpoin.io,USA,FALSE,FALSE,3,57
+00Q0048,Peyton,Lee,Rho Biotech,Software Engineer,peyton.lee@rhobiotech.io,561-555-3527,Biotechnology,14773,1793039700,Referral,rhobiote.io,USA,TRUE,FALSE,11,0
+00Q0049,Elsa,Kim,Willow Healthcare,SVP Digital Banking,elsa.kim@willowhealth.io,948-555-1870,Healthcare,9867,1046106735,Content Download,willowhe.io,USA,FALSE,FALSE,5,24
+00Q0050,Henry,Nelson,Solvent SaaS Co,VP Engineering,henry.nelson@solventsaasc.io,340-555-5897,Technology,6524,770007600,Referral,solvents.io,USA,TRUE,TRUE,10,2
+00Q0051,Tobias,Mitchell,Jumpstart Fintech,Director of IT,tobias.mitchell@jumpstartfin.tech,786-555-9218,Financial Services,8753,998397090,Demo Request,jumpstar.tech,USA,TRUE,FALSE,19,3
+00Q0052,Cameron,Phillips,Ion Financial,Procurement Officer,cameron.phillips@ionfinancia.io,344-555-7773,Financial Services,11741,1322009010,Cold List,ionfinanc.io,USA,FALSE,FALSE,0,210
+00Q0053,Aiko,Rodriguez,LightYear AI,Director of Finance Systems,aiko.rodriguez@lightyearai.io,823-555-3419,Technology,3048,284985600,Demo Request,lightyear.io,USA,TRUE,FALSE,20,2
+00Q0054,Skyler,Hill,Sigma Manufacturing,VP of Sales,skyler.hill@sigmamanufa.io,213-555-6879,Manufacturing,11553,1244420340,Content Download,sigmaman.io,USA,FALSE,TRUE,7,22
+00Q0055,Hayden,Walker,ZeroFriction Tech,Marketing Director,hayden.walker@zerofriction.io,867-555-8327,Technology,4258,430116900,Referral,zerofric.io,USA,TRUE,FALSE,14,4
+00Q0056,Rosa,Lee,Quill Analytics,VP Revenue Operations,rosa.lee@quillanalyti.io,836-555-2012,Technology,2834,249836100,Content Download,quillanal.io,USA,FALSE,TRUE,6,8
+00Q0057,Priya,Mitchell,VelocityPay,Head of Digital,priya.mitchell@velocitypay.io,281-555-4107,Financial Services,3971,438327090,Demo Request,velocityp.io,USA,TRUE,TRUE,20,1
+00Q0058,Fiona,Diallo,DataStream Inc,CEO,fiona.diallo@datastreamI.io,824-555-3219,Technology,7948,869905200,Referral,datastream.io,USA,TRUE,TRUE,16,0
+00Q0059,Jordan,Lindgren,Riven Software,Sales Manager,jordan.lindgren@rivensoftwa.tech,827-555-2710,Technology,5041,544026600,Web,rivensof.tech,USA,FALSE,FALSE,6,27
+00Q0060,Leila,Harris,OpenPath Security,Director of Engineering,leila.harris@openpathhsec.io,697-555-7068,Technology,3712,371685120,Web,openpaths.io,USA,FALSE,FALSE,4,41
+00Q0061,Bruno,Clark,Vertex Financial,VP of Sales,bruno.clark@vertexfinanci.io,291-555-3413,Financial Services,9301,1018599480,Demo Request,vertexfin.io,USA,TRUE,FALSE,15,3
+00Q0062,Yuki,Perez,Ember Analytics,Co-Founder,yuki.perez@emberanalyti.io,393-555-9128,Technology,1529,156726012,Referral,emberanal.io,USA,TRUE,TRUE,18,1
+00Q0063,Reese,Turner,TrueNorth Financial,CTO,reese.turner@truenorthfin.io,893-555-5826,Financial Services,12918,1423773900,Content Download,truenort.io,USA,FALSE,TRUE,11,12
+00Q0064,Logan,Roberts,Solvent SaaS Co,SVP Digital Banking,logan.roberts@solventsaasc.tech,540-555-2094,Technology,6524,843976200,Demo Request,solvents.tech,USA,TRUE,FALSE,12,2
+00Q0065,Amelia,Okafor,Quill Analytics,Head of RevOps,amelia.okafor@quillanalyti.ai,620-555-2699,Technology,2834,276249900,Demo Request,quillanal.ai,USA,TRUE,TRUE,14,1
+00Q0066,Diego,Osei,Momentum CRM,VP of Sales,diego.osei@momentumcrm.ai,869-555-7018,Technology,7590,857490750,Referral,momentumc.ai,USA,TRUE,FALSE,11,3
+00Q0067,Casey,Kim,Cedar Health,Intern,casey.kim@cedarhealth.io,387-555-6131,Healthcare,9462,1002261300,Demo Request,cedarheal.io,USA,FALSE,FALSE,7,5
+00Q0068,Taylor,Clark,Forge Industrial,VP Engineering,taylor.clark@forgeindustr.io,596-555-7046,Manufacturing,8427,943989480,Content Download,forgeindu.io,USA,FALSE,TRUE,5,21
+00Q0069,Chiara,Adams,Marble Cloud,Marketing Specialist,chiara.adams@marblecloud.io,484-555-4126,Technology,3561,296586270,Cold List,marbleclou.io,USA,FALSE,FALSE,0,87
+00Q0070,Paulo,Mitchell,RapidGrow SaaS,Director of Engineering,paulo.mitchell@rapidgrowsaa.io,736-555-8736,Technology,2946,277636500,Web,rapidgrows.io,USA,FALSE,FALSE,12,45
+00Q0071,Riley,Thompson,GrowthLoop,Product Manager,riley.thompson@growthloop.io,832-555-1044,Technology,11832,1301124000,Content Download,growthlop.io,USA,FALSE,FALSE,8,16
+00Q0072,Morgan,Martinez,Momentum CRM,Owner,morgan.martinez@momentumcrm.tech,213-555-2027,Technology,7590,934281750,Cold List,momentumc.tech,USA,FALSE,FALSE,0,110
+00Q0073,James,Turner,Ion Financial,VP Revenue Operations,james.turner@ionfinancia.tech,397-555-8613,Financial Services,11741,1305888570,Web,ionfinanc.tech,USA,FALSE,FALSE,7,53
+00Q0074,Hayden,Clark,Ultima Tech,Founder,hayden.clark@ultimatech.io,218-555-5924,Technology,4703,435167250,Referral,ultimatec.io,USA,TRUE,TRUE,20,1
+00Q0075,Skyler,Lopez,Wave Financial,CFO,skyler.lopez@wavefinancia.co,492-555-9753,Financial Services,9420,1104570000,Demo Request,wavefinan.co,USA,TRUE,FALSE,7,3
+00Q0076,Aiko,Adams,Acme SaaS,VP Revenue Operations,aiko.adams@acmesaas.io,960-555-4483,Technology,4867,515303850,Content Download,acmesaas.io,USA,FALSE,TRUE,19,9
+00Q0077,Cameron,Lee,Infinite Scale,Head of RevOps,cameron.lee@infinitescal.co,428-555-5268,Technology,10793,1187362075,Demo Request,infinites.co,USA,TRUE,TRUE,13,2
+00Q0078,Tobias,Novak,TrueNorth Financial,Business Analyst,tobias.novak@truenorthfin.ai,857-555-3011,Financial Services,12918,1313892900,Web,truenort.ai,USA,FALSE,FALSE,2,36
+00Q0079,Peyton,Sorensen,Kinetic Software,Director of IT,peyton.sorensen@kineticsoftw.org,498-555-1024,Technology,1070,116734000,Referral,kineticsof.org,USA,TRUE,FALSE,15,4
+00Q0080,Quinn,Clark,VelocityPay,Software Engineer,quinn.clark@velocitypay.tech,561-555-7039,Financial Services,3971,428508090,Web,velocityp.tech,USA,FALSE,FALSE,5,29
+00Q0081,Elsa,Rodriguez,Zenith SaaS,VP of Sales,elsa.rodriguez@zenithsaas.io,948-555-3721,Technology,3218,285860400,Demo Request,zenithsaa.io,USA,TRUE,FALSE,14,2
+00Q0082,Reese,Walker,Rho Biotech,Product Manager,reese.walker@rhobiotech.co,340-555-5904,Biotechnology,14773,1667434650,Content Download,rhobiote.co,USA,FALSE,FALSE,7,11
+00Q0083,Logan,Turner,GrowthLoop,Marketing Director,logan.turner@growthloop.co,786-555-7721,Technology,11832,1353756000,Web,growthlop.co,USA,FALSE,FALSE,4,62
+00Q0084,Bruno,Osei,Neon Fintech,VP Engineering,bruno.osei@neonfintech.co,344-555-9803,Financial Services,12407,1375656960,Content Download,neonfintech.co,USA,FALSE,TRUE,11,18
+00Q0085,Henry,Martin,Cascade Health Systems,Head of Partnerships,henry.martin@cascadehealt.co,823-555-6047,Healthcare,11897,1229568630,Web,cascadehe.co,USA,FALSE,FALSE,9,44
+00Q0086,Chiara,Hill,Helios Tech,SVP Digital Banking,chiara.hill@heliostech.co,213-555-5742,Technology,7083,787517175,Referral,heliostech.co,USA,TRUE,FALSE,6,5
+00Q0087,Riley,Tanaka,Ember Analytics,Claims Director,riley.tanaka@emberanalyti.co,867-555-4093,Technology,1529,147048030,Web,emberanal.co,USA,FALSE,FALSE,3,22
+00Q0088,Taylor,Phillips,Zenith SaaS,Head of RevOps,taylor.phillips@zenithsaas.co,836-555-7712,Technology,3218,307823400,Demo Request,zenithsaa.co,USA,TRUE,TRUE,17,1
+00Q0089,Fiona,Martin,HorizonPay,VP Engineering,fiona.martin@horizonpay.tech,281-555-2980,Financial Services,5420,625230000,Content Download,horizonpa.tech,USA,FALSE,TRUE,10,7
+00Q0090,Maya,Torres,Elevate SaaS,CEO,maya.torres@elevatesaas.io,824-555-3210,Technology,2150,205862500,Referral,elevates.io,USA,TRUE,TRUE,19,1
+00Q0091,Amara,Wachowski,OpenPath Security,IT Manager,amara.wachowski@openpathhsec.co,827-555-7834,Technology,3712,380979360,Cold List,openpaths.co,USA,FALSE,FALSE,0,76
+00Q0092,Peyton,Baker,Cedar Health,COO,peyton.baker@cedarhealth.co,697-555-2064,Healthcare,9462,966966300,Demo Request,cedarheal.co,USA,TRUE,FALSE,15,3
+00Q0093,Greta,Okafor,Forge Industrial,Owner,greta.okafor@forgeindustr.co,291-555-3849,Manufacturing,8427,1052505375,Cold List,forgeindu.co,USA,FALSE,FALSE,0,140
+00Q0094,Diego,Nelson,Atlas Freight,Head of Digital,diego.nelson@atlasfreight.io,393-555-5023,Transportation,3272,361183296,Content Download,atlasfreig.io,USA,FALSE,FALSE,8,20
+00Q0095,Yuki,Rodriguez,Opal Cloud,VP Revenue Operations,yuki.rodriguez@opalcloud.io,893-555-5319,Technology,3406,350028600,Referral,opalcloud.io,USA,TRUE,TRUE,12,2
+00Q0096,Bruno,Lindqvist,RapidGrow SaaS,Director of Engineering,bruno.lindqvist@rapidgrowsaa.co,540-555-4785,Technology,2946,300097500,Demo Request,rapidgrows.co,USA,TRUE,FALSE,9,4
+00Q0097,Leila,Adams,Slate Manufacturing,Operations Manager,leila.adams@slatemanufa.io,620-555-6108,Manufacturing,7319,734018685,Web,slatemanu.io,USA,FALSE,FALSE,2,35
+00Q0098,Casey,Phillips,YieldPoint Capital,Head of Risk,casey.phillips@yieldpointca.co,869-555-6052,Financial Services,6204,694448400,Web,yieldpoin.co,USA,FALSE,FALSE,6,48
+00Q0099,Jordan,Marchetti,Lumino Banking,CTO,jordan.marchetti@luminobankin.io,387-555-3517,Financial Services,4219,465759945,Referral,luminoban.io,USA,TRUE,TRUE,20,1
+00Q0100,Sofia,Thompson,ZeroFriction Tech,Director of IT,sofia.thompson@zerofriction.co,596-555-1819,Technology,4258,414445500,Content Download,zerofric.co,USA,FALSE,FALSE,5,29
+00Q0101,Reese,Kim,TrueNorth Financial,VP Engineering,reese.kim@truenorthfin.tech,484-555-5732,Financial Services,12918,1466682900,Referral,truenort.tech,USA,TRUE,FALSE,11,3
+00Q0102,Logan,Harris,Bolt Logistics,Head of Partnerships,logan.harris@boltlogistic.io,736-555-4916,Transportation,6038,661363080,Demo Request,boltlogis.io,USA,TRUE,FALSE,14,2
+00Q0103,Fiona,Nelson,Quantum Retail,VP of Sales,fiona.nelson@quantumretai.tech,832-555-7241,Retail,2093,240168500,Demo Request,quantumret.tech,USA,TRUE,TRUE,16,1
+00Q0104,Paulo,Garcia,Wave Financial,Head of RevOps,paulo.garcia@wavefinancia.tech,213-555-2850,Financial Services,9420,1048722000,Content Download,wavefinan.tech,USA,FALSE,TRUE,9,10
+00Q0105,Hayden,Mitchell,Acme SaaS,Software Engineer,hayden.mitchell@acmesaas.tech,397-555-8027,Technology,4867,484688100,Web,acmesaas.tech,USA,FALSE,FALSE,4,31
+00Q0106,Taylor,Turner,Neon Fintech,Product Manager,taylor.turner@neonfintech.tech,218-555-4173,Financial Services,12407,1381578000,Web,neonfintech.tech,USA,FALSE,FALSE,5,41
+00Q0107,Amelia,Lee,Acme SaaS,Director of Finance Systems,amelia.lee@acmesaas.ai,492-555-6038,Technology,4867,522815700,Referral,acmesaas.ai,USA,TRUE,FALSE,8,4
+00Q0108,Diego,Okafor,LightYear AI,Head of Digital,diego.okafor@lightyearai.co,960-555-6813,Technology,3048,292108800,Web,lightyear.co,USA,FALSE,FALSE,2,38
+00Q0109,Logan,Baker,DataStream Inc,VP of Sales,logan.baker@datastreamI.co,428-555-3026,Technology,7948,825393000,Demo Request,datastream.co,USA,TRUE,FALSE,17,2
+00Q0110,Bruno,Clark,Infinite Scale,Head of Partnerships,bruno.clark@infinitescal.tech,857-555-2419,Technology,10793,1148939475,Demo Request,infinites.tech,USA,TRUE,TRUE,15,1
+00Q0111,Henry,Rodriguez,Opal Cloud,Consultant,henry.rodriguez@opalcloud.co,498-555-4720,Technology,3406,326977800,Referral,opalcloud.co,USA,FALSE,FALSE,6,15
+00Q0112,Elsa,Martin,Lumino Banking,CFO,elsa.martin@luminobankin.co,561-555-7284,Financial Services,4219,421218000,Content Download,luminoban.co,USA,FALSE,TRUE,12,14
+00Q0113,Skyler,Adams,Tidal CRM,VP Revenue Operations,skyler.adams@tidalcrm.ai,948-555-9017,Manufacturing,294,34594200,Web,tidalcrm.ai,USA,FALSE,FALSE,1,59
+00Q0114,Cameron,Thompson,Cedar Health,Director of Ecommerce,cameron.thompson@cedarhealth.ai,340-555-8824,Healthcare,9462,1001100300,Content Download,cedarheal.ai,USA,FALSE,FALSE,7,17
+00Q0115,Greta,Walker,VelocityPay,VP Engineering,greta.walker@velocitypay.org,786-555-4537,Financial Services,3971,434882130,Referral,velocityp.org,USA,TRUE,FALSE,9,5
+00Q0116,Rosa,Harris,Zenith SaaS,Marketing Director,rosa.harris@zenithsaas.ai,344-555-2196,Technology,3218,300729000,Content Download,zenithsaa.ai,USA,FALSE,TRUE,5,20
+00Q0117,Tobias,Phillips,HorizonPay,COO,tobias.phillips@horizonpay.org,823-555-4071,Financial Services,5420,638394000,Demo Request,horizonpa.org,USA,TRUE,FALSE,15,2
+00Q0118,Fiona,Lee,Quartz Fintech,Head of RevOps,fiona.lee@quartzfintec.co,213-555-5826,Financial Services,4125,391237500,Referral,quartzfin.co,USA,TRUE,TRUE,11,3
+00Q0119,Chiara,Turner,PivotPoint Consulting,Director of IT,chiara.turner@pivotpointco.io,867-555-9431,Technology,1271,126900900,Cold List,pivotpoin.io,USA,FALSE,FALSE,0,95
+00Q0120,Diego,Adams,Atlas Freight,VP of Sales,diego.adams@atlasfreight.co,836-555-2718,Transportation,3272,363600288,Demo Request,atlasfreig.co,USA,TRUE,FALSE,10,4
+00Q0121,Jordan,Martin,Forge Industrial,IT Manager,jordan.martin@forgeindustr.ai,281-555-7093,Manufacturing,8427,884466540,Web,forgeindu.ai,USA,FALSE,FALSE,3,28
+00Q0122,Leila,Hill,Elevate SaaS,VP Revenue Operations,leila.hill@elevatesaas.co,824-555-4316,Technology,2150,211375000,Referral,elevates.co,USA,TRUE,TRUE,16,0
+00Q0123,Paulo,Lindqvist,Sigma Manufacturing,Head of Partnerships,paulo.lindqvist@sigmamanufa.co,827-555-8193,Manufacturing,11553,1250244840,Content Download,sigmaman.co,USA,FALSE,FALSE,4,25
+00Q0124,Morgan,Garcia,GrowthLoop,VP of Sales,morgan.garcia@growthloop.tech,697-555-6040,Technology,11832,1326384000,Demo Request,growthlop.tech,USA,TRUE,FALSE,13,1
+00Q0125,Taylor,Clark,Vex Robotics,Product Manager,taylor.clark@vexrobotics.io,291-555-7285,Technology,4861,444376260,Web,vexroboti.io,USA,FALSE,FALSE,9,32
+00Q0126,Skyler,Nelson,ZeroFriction Tech,VP Engineering,skyler.nelson@zerofriction.ai,393-555-1036,Technology,4258,444345300,Demo Request,zerofric.ai,USA,TRUE,TRUE,18,2
+00Q0127,Hayden,Mitchell,Quill Analytics,VP of Sales,hayden.mitchell@quillanalyti.co,893-555-9317,Technology,2834,265991400,Referral,quillanal.co,USA,TRUE,FALSE,7,6
+00Q0128,Bruno,Turner,Wave Financial,Director of IT,bruno.turner@wavefinancia.org,540-555-5172,Financial Services,9420,1096890000,Content Download,wavefinan.org,USA,FALSE,FALSE,10,23
+00Q0129,Elsa,Garcia,Bolt Logistics,Business Analyst,elsa.garcia@boltlogistic.co,620-555-3047,Transportation,6038,634086840,Web,boltlogis.co,USA,FALSE,FALSE,3,44
+00Q0130,Greta,Adams,Helios Tech,Director of Finance Systems,greta.adams@heliostech.ai,869-555-6419,Technology,7083,734858175,Demo Request,heliostech.ai,USA,TRUE,FALSE,11,3
+00Q0131,Leila,Rodriguez,PivotPoint Consulting,Marketing Specialist,leila.rodriguez@pivotpointco.co,387-555-8236,Technology,1271,117589050,Cold List,pivotpoin.co,USA,FALSE,FALSE,0,117
+00Q0132,Amara,Thompson,Opal Cloud,VP Revenue Operations,amara.thompson@opalcloud.ai,596-555-9043,Technology,3406,343806600,Content Download,opalcloud.ai,USA,FALSE,TRUE,8,11
+00Q0133,Cameron,Martinez,Mosaic Software,Account Executive,cameron.martinez@mosaicsoftwa.co,484-555-2735,Technology,12193,1298697675,Web,mosaicsof.co,USA,FALSE,FALSE,6,39
+00Q0134,Maya,Lindqvist,Jumpstart Fintech,Head of Partnerships,maya.lindqvist@jumpstartfin.ai,736-555-6814,Financial Services,8753,983462490,Referral,jumpstar.ai,USA,TRUE,FALSE,14,2
+00Q0135,Diego,Turner,RapidGrow SaaS,CEO,diego.turner@rapidgrowsaa.ai,832-555-2517,Technology,2946,276946500,Referral,rapidgrows.ai,USA,TRUE,TRUE,20,1
+00Q0136,Chiara,Clark,Ion Financial,VP of Sales,chiara.clark@ionfinancia.co,213-555-8740,Financial Services,11741,1315992210,Demo Request,ionfinanc.co,USA,TRUE,FALSE,12,2
+00Q0137,Paulo,Hill,Cobalt Peak Software,IT Manager,paulo.hill@cobaltpeaksof.ai,397-555-3819,Technology,3695,382882500,Web,cobaltpeaks.ai,USA,FALSE,FALSE,4,36
+00Q0138,Hayden,Baker,Riven Software,Head of Digital,hayden.baker@rivensoftwa.io,218-555-5203,Technology,5041,503591700,Content Download,rivensof.io,USA,FALSE,TRUE,10,13
+00Q0139,Fiona,Thompson,Kestrel Media,VP of Sales,fiona.thompson@kestrelmedia.co,492-555-4019,Media,1416,98280576,Demo Request,kestrelm.co,USA,TRUE,FALSE,9,4
+00Q0140,Skyler,Martin,Acme SaaS,Director of Engineering,skyler.martin@acmesaas.co,960-555-3827,Technology,4867,502049850,Web,acmesaas.co,USA,FALSE,FALSE,7,51
+00Q0141,Logan,Rodriguez,Marble Cloud,VP Revenue Operations,logan.rodriguez@marblecloud.co,428-555-7015,Technology,3561,305230290,Referral,marbleclou.co,USA,TRUE,FALSE,11,5
+00Q0142,Diego,Walker,Xenon Labs,Head of RevOps,diego.walker@xenonlabs.co,857-555-8329,Biotechnology,1209,137418684,Demo Request,xenonlab.co,USA,TRUE,TRUE,20,2
+00Q0143,Taylor,Nelson,LightYear AI,VP Engineering,taylor.nelson@lightyearai.tech,498-555-7023,Technology,3048,280425600,Content Download,lightyear.tech,USA,FALSE,FALSE,3,28
+00Q0144,Paulo,Osei,HorizonPay,Director of IT,paulo.osei@horizonpay.co,561-555-5827,Financial Services,5420,611958000,Web,horizonpa.co,USA,FALSE,FALSE,6,43
+00Q0145,Elsa,Turner,Elevate SaaS,Head of Digital,elsa.turner@elevatesaas.ai,948-555-2907,Technology,2150,219882500,Demo Request,elevates.ai,USA,TRUE,FALSE,15,1
+00Q0146,Amara,Clark,Tidal CRM,Business Analyst,amara.clark@tidalcrm.tech,340-555-6129,Manufacturing,294,38613000,Content Download,tidalcrm.tech,USA,FALSE,TRUE,5,16
+00Q0147,Cameron,Nelson,Infinite Scale,Software Engineer,cameron.nelson@infinitescal.ai,786-555-3024,Technology,10793,1154694225,Web,infinites.ai,USA,FALSE,FALSE,11,33
+00Q0148,Greta,Thompson,Momentum CRM,VP of Sales,greta.thompson@momentumcrm.org,344-555-5916,Technology,7590,897060750,Demo Request,momentumc.org,USA,TRUE,TRUE,14,1
+00Q0149,Leila,Martin,Delta Capital,Head of Partnerships,leila.martin@deltacapita.co,823-555-2034,Financial Services,12459,1384461900,Referral,deltacapi.co,USA,TRUE,FALSE,10,3
+00Q0150,Bruno,Baker,Xenon Labs,VP Revenue Operations,bruno.baker@xenonlabs.ai,213-555-5917,Biotechnology,1209,144219012,Referral,xenonlab.ai,USA,TRUE,TRUE,17,2
+00Q0151,Reese,Mitchell,OpenPath Security,VP of Sales,reese.mitchell@openpathhsec.ai,867-555-9408,Technology,3712,363776640,Demo Request,openpaths.ai,USA,TRUE,FALSE,13,1
+00Q0152,Quinn,Lee,Vex Robotics,Head of Partnerships,quinn.lee@vexrobotics.co,836-555-6219,Technology,4861,461800860,Referral,vexroboti.co,USA,TRUE,FALSE,9,4
+00Q0153,Tobias,Garcia,TrueNorth Financial,Business Analyst,tobias.garcia@truenorthfin.co,281-555-4718,Financial Services,12918,1392990900,Web,truenort.co,USA,FALSE,FALSE,3,48
+00Q0154,James,Hill,Bolt Logistics,IT Manager,james.hill@boltlogistic.ai,824-555-7014,Transportation,6038,648186420,Web,boltlogis.ai,USA,FALSE,FALSE,2,34
+00Q0155,Sofia,Adams,Zenith SaaS,Head of Digital,sofia.adams@zenithsaas.tech,827-555-3082,Technology,3218,310136400,Demo Request,zenithsaa.tech,USA,TRUE,FALSE,11,2
+00Q0156,Morgan,Holt,Ember Analytics,Director of Engineering,morgan.holt@emberanalyti.ai,697-555-4817,Technology,1529,154432500,Content Download,emberanal.ai,USA,FALSE,TRUE,8,16
+00Q0157,Amara,Phillips,Sigma Manufacturing,Operations Manager,amara.phillips@sigmamanufa.ai,291-555-6039,Manufacturing,11553,1250244840,Web,sigmaman.ai,USA,FALSE,FALSE,3,60
+00Q0158,Cameron,Turner,DataStream Inc,VP Revenue Operations,cameron.turner@datastreamI.ai,393-555-8215,Technology,7948,849386400,Referral,datastream.ai,USA,TRUE,TRUE,14,3
+00Q0159,Peyton,Diallo,Quartz Fintech,VP of Sales,peyton.diallo@quartzfintec.co,893-555-4071,Financial Services,4125,378337500,Demo Request,quartzfin.co,USA,TRUE,FALSE,16,2
+00Q0160,Chiara,Rodriguez,Cobalt Peak Software,Head of RevOps,chiara.rodriguez@cobaltpeaksof.tech,540-555-9152,Technology,3695,368095500,Demo Request,cobaltpeaks.tech,USA,TRUE,TRUE,12,1
+00Q0161,Jordan,Lee,Marble Cloud,VP of Sales,jordan.lee@marblecloud.ai,620-555-4717,Technology,3561,279254430,Referral,marbleclou.ai,USA,TRUE,FALSE,7,5
+00Q0162,Yuki,Walker,Neon Fintech,Director of Engineering,yuki.walker@neonfintech.org,869-555-8419,Financial Services,12407,1405592040,Content Download,neonfintech.org,USA,FALSE,FALSE,10,19
+00Q0163,Leila,Thompson,VelocityPay,VP Engineering,leila.thompson@velocitypay.io,387-555-2516,Financial Services,3971,424189470,Demo Request,velocityp.io,USA,TRUE,FALSE,11,3
+00Q0164,Paulo,Harris,Riven Software,IT Manager,paulo.harris@rivensoftwa.ai,596-555-6029,Technology,5041,506614200,Web,rivensof.ai,USA,FALSE,FALSE,4,42
+00Q0165,Elsa,Lee,YieldPoint Capital,Product Manager,elsa.lee@yieldpointca.ai,484-555-3819,Financial Services,6204,643474800,Content Download,yieldpoin.ai,USA,FALSE,FALSE,8,23
+00Q0166,Maya,Garcia,PivotPoint Consulting,Director of IT,maya.garcia@pivotpointco.ai,736-555-5027,Technology,1271,123483600,Cold List,pivotpoin.ai,USA,FALSE,FALSE,0,128
+00Q0167,Diego,Thompson,Acme SaaS,VP Revenue Operations,diego.thompson@acmesaas.org,832-555-9413,Technology,4867,507580350,Referral,acmesaas.org,USA,TRUE,FALSE,10,4
+00Q0168,Riley,Mitchell,Cobalt Peak Software,CEO,riley.mitchell@cobaltpeaksof.org,213-555-7024,Technology,3695,381963000,Demo Request,cobaltpeaks.org,USA,TRUE,TRUE,17,1
+00Q0169,Taylor,Hill,Kestrel Media,Marketing Director,taylor.hill@kestrelmedia.ai,397-555-2418,Media,1416,87609048,Content Download,kestrelm.ai,USA,FALSE,TRUE,6,20
+00Q0170,Logan,Adams,Tidal CRM,Director of Finance Systems,logan.adams@tidalcrm.org,218-555-6825,Manufacturing,294,37285200,Content Download,tidalcrm.org,USA,FALSE,FALSE,7,26
+00Q0171,Hayden,Turner,Rho Biotech,Head of Digital,hayden.turner@rhobiotech.ai,492-555-4217,Biotechnology,14773,1798478550,Web,rhobiote.ai,USA,FALSE,FALSE,5,57
+00Q0172,Jordan,Nelson,DataStream Inc,VP of Sales,jordan.nelson@datastreamI.tech,960-555-8413,Technology,7948,842493600,Demo Request,datastream.tech,USA,TRUE,FALSE,18,2
+00Q0173,Amara,Garcia,Marble Cloud,Head of Partnerships,amara.garcia@marblecloud.tech,428-555-9026,Technology,3561,310407270,Referral,marbleclou.tech,USA,TRUE,FALSE,8,6
+00Q0174,Greta,Clark,HorizonPay,IT Manager,greta.clark@horizonpay.ai,857-555-7315,Financial Services,5420,627708000,Web,horizonpa.ai,USA,FALSE,FALSE,2,33
+00Q0175,Peyton,Martinez,Wave Financial,VP of Sales,peyton.martinez@wavefinancia.ai,498-555-3826,Financial Services,9420,1040610000,Demo Request,wavefinan.ai,USA,TRUE,TRUE,14,1
+00Q0176,Bianca,Harris,Zenith SaaS,Director of IT,bianca.harris@zenithsaas.org,561-555-6028,Technology,3218,308524800,Web,zenithsaa.org,USA,FALSE,FALSE,5,47
+00Q0177,Leila,Lee,Atlas Freight,VP Revenue Operations,leila.lee@atlasfreight.ai,948-555-4319,Transportation,3272,373030656,Content Download,atlasfreig.ai,USA,FALSE,FALSE,9,22
+00Q0178,Elsa,Baker,Ember Analytics,VP Engineering,elsa.baker@emberanalyti.tech,340-555-5918,Technology,1529,149028570,Demo Request,emberanal.tech,USA,TRUE,FALSE,14,3
+00Q0179,Quinn,Rodriguez,GrowthLoop,Head of RevOps,quinn.rodriguez@growthloop.ai,786-555-3027,Technology,11832,1350252000,Demo Request,growthlop.ai,USA,TRUE,TRUE,16,1
+00Q0180,Cameron,Clark,Vertex Financial,VP of Sales,cameron.clark@vertexfinanci.co,344-555-8417,Financial Services,9301,1041483720,Referral,vertexfin.co,USA,TRUE,FALSE,11,3
+00Q0181,Sofia,Phillips,Ion Financial,Software Engineer,sofia.phillips@ionfinancia.ai,823-555-2719,Financial Services,11741,1282983810,Web,ionfinanc.ai,USA,FALSE,FALSE,4,54
+00Q0182,Morgan,Turner,Kinetic Software,VP Engineering,morgan.turner@kineticsoftw.io,213-555-6038,Technology,1070,125305000,Referral,kineticsof.io,USA,TRUE,FALSE,12,2
+00Q0183,Diego,Hill,Quill Analytics,CEO,diego.hill@quillanalyti.tech,867-555-4619,Technology,2834,284063100,Demo Request,quillanal.tech,USA,TRUE,TRUE,18,1
+00Q0184,Amelia,Garcia,Lumino Banking,VP of Sales,amelia.garcia@luminobankin.ai,836-555-5926,Financial Services,4219,454697190,Demo Request,luminoban.ai,USA,TRUE,FALSE,13,2
+00Q0185,Hayden,Adams,ZeroFriction Tech,Head of Partnerships,hayden.adams@zerofriction.tech,281-555-7834,Technology,4258,433209600,Referral,zerofric.tech,USA,TRUE,FALSE,9,5
+00Q0186,Taylor,Thompson,Xenon Labs,Business Analyst,taylor.thompson@xenonlabs.tech,824-555-2917,Biotechnology,1209,131099526,Content Download,xenonlab.tech,USA,FALSE,TRUE,6,14
+00Q0187,Greta,Walker,Pulse Health,VP of Sales,greta.walker@pulsehealth.co,827-555-6039,Healthcare,1800,182268000,Demo Request,pulseheal.co,USA,TRUE,FALSE,16,2
+00Q0188,Quinn,Nelson,Infinite Scale,VP Revenue Operations,quinn.nelson@infinitescal.org,697-555-4126,Technology,10793,1187362075,Content Download,infinites.org,USA,FALSE,TRUE,12,8
+00Q0189,Leila,Rodriguez,Delta Capital,Director of Finance Systems,leila.rodriguez@deltacapita.ai,291-555-8218,Financial Services,12459,1408284870,Demo Request,deltacapi.ai,USA,TRUE,FALSE,20,1
+00Q0190,Paulo,Garcia,RapidGrow SaaS,VP Engineering,paulo.garcia@rapidgrowsaa.tech,393-555-5317,Technology,2946,289221000,Referral,rapidgrows.tech,USA,TRUE,FALSE,8,6
+00Q0191,Amara,Baker,TrueNorth Financial,Head of RevOps,amara.baker@truenorthfin.org,893-555-3816,Financial Services,12918,1453768200,Demo Request,truenort.org,USA,TRUE,TRUE,15,2
+00Q0192,Bruno,Martin,Opal Cloud,VP of Sales,bruno.martin@opalcloud.tech,540-555-6913,Technology,3406,340600200,Demo Request,opalcloud.tech,USA,TRUE,FALSE,12,4
+00Q0193,Chiara,Nelson,Acme SaaS,Head of RevOps,chiara.nelson@acmesaas.io,620-555-5218,Technology,4867,499278300,Demo Request,acmesaas.io,USA,TRUE,TRUE,14,1
+00Q0194,Fiona,Clark,Cedar Health,VP Revenue Operations,fiona.clark@cedarhealth.tech,869-555-7413,Healthcare,9462,1016524800,Content Download,cedarheal.tech,USA,FALSE,TRUE,10,13
+00Q0195,Jordan,Lee,Vex Robotics,Software Engineer,jordan.lee@vexrobotics.ai,387-555-4827,Technology,4861,444376260,Web,vexroboti.ai,USA,FALSE,FALSE,6,37
+00Q0196,Peyton,Thompson,LightYear AI,VP of Sales,peyton.thompson@lightyearai.org,596-555-2013,Technology,3048,289612800,Demo Request,lightyear.org,USA,TRUE,FALSE,11,3
+00Q0197,Maya,Lee,Atlas Freight,VP Revenue Operations,maya.lee@atlasfreight.tech,484-555-6917,Transportation,3272,370134720,Referral,atlasfreig.tech,USA,TRUE,FALSE,9,5
+00Q0198,Quinn,Thompson,Wave Financial,Director of Engineering,quinn.thompson@wavefinancia.org,736-555-4218,Financial Services,9420,1052820000,Content Download,wavefinan.org,USA,FALSE,FALSE,8,21
+00Q0199,Diego,Mitchell,Marble Cloud,VP of Sales,diego.mitchell@marblecloud.org,832-555-7913,Technology,3561,308026530,Demo Request,marbleclou.org,USA,TRUE,FALSE,13,2
+00Q0200,James,Hill,ZeroFriction Tech,Head of Partnerships,james.hill@zerofriction.org,213-555-3918,Technology,4258,427299900,Referral,zerofric.org,USA,TRUE,FALSE,10,4
